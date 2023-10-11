@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customized T-Shirt Order</title>
+</head>
+
+<body>
+    <h1>Customized T-Shirt Order</h1>
+    <hr>
+    <table>
+        <tr>
+            <td>
+                <form>
+                    <table>
+                        <tr>
+                            <td><label for="tagline">Tagline on the Shirt:</label></td>
+                            <td><input type="text" id="tagline" name="tagline" required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="color">Color:</label></td>
+                            <td><input type="text" id="color" name="color" required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="size">Size:</label></td>
+                            <td>
+                                <select id="size" name="size" required>
+                                    <option value="S">Small</option>
+                                    <option value="M">Medium</option>
+                                    <option value="L">Large</option>
+                                    <option value="XL">Extra Large</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label for="quantity">Quantity:</label></td>
+                            <td><input type="number" id="quantity" name="quantity" min="1" required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="delivery_date">Delivery Date:</label></td>
+                            <td><input type="date" id="delivery_date" name="delivery_date" required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="delivery_address">Delivery Address:</label></td>
+                            <td><textarea id="delivery_address" name="delivery_address" rows="4" required></textarea></td>
+                        </tr>
+                        <tr>
+                            <td><label for="contact_number">Contact Number:</label></td>
+                            <td><input type="tel" id="contact_number" name="contact_number" pattern="[0-9]{10}" required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="email">Email:</label></td>
+                            <td><input type="email" id="email" name="email" required></td>
+                        </tr>
+                    </table>
+                    <br>
+                    <input type="reset" value="Reset">
+                    <input type="submit" value="Final Look">
+                    <input type="submit" value="Place Order">
+                </form>
+            </td>
+
+        </tr>
+    </table>
+    <br>
+    <hr>
+    <table>
+        <h2>Our Other products</h2>
+        <tr>
+            <td>
+                <img src="/Eperiment 1/img/image-a.jpg" width="200">
+            </td>
+            <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+            <td>
+                <img src="./img/image-b.jpg" width="250">
+            </td>
+            <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+            <td>
+                <img src="./img/image-c.jpg" width="300">
+            </td>
+        </tr>
+    </table>
+    <br>
+    <hr>
+    <footer id="footer">
+        <p>For further information, mail us at: <a href="mailto:xyz#@gmail.com">xyz@gmail.com</a> | Contact us: <a href="tel:+919987466321">+91 9987466321</a></p>
+    </footer>
+</body>
+</html>
